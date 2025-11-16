@@ -2,12 +2,12 @@
  ## Software Engineer 
 
 - Location: Dubai, United Arab Emirates
-- Phone: +971 54 452 3695
-- Email: eng.khaled4522@gmail.com
-- Website: https://my-protifile.web.app
-- LinkedIn: https://www.linkedin.com/in/khaled-mohamed-abdou-318378254/
+- Phone: [+971 54 452 3695](tel:+971544523695)
+- Email: [eng.khaled4522@gmail.com](mailto:eng.khaled4522@gmail.com)
+- Website: [my-protifile.web.app](https://my-protifile.web.app)
+- LinkedIn: [linkedin.com/in/khaled-mohamed-abdou-318378254](https://www.linkedin.com/in/khaled-mohamed-abdou-318378254/)
 
-**Backend & Mobile Engineer | Microservices • REST APIs • Cloud**
+**Backend & Mobile Engineer | Microservices  REST APIs | Cloud**
 
 ## Summary
 
@@ -16,7 +16,7 @@ Results-driven Mobile Software Engineer and Backend Developer with 3+ years of e
 ## Core Competencies
 
 - Backend: `Go`, `Microservices`, `REST APIs`, `API Design`
-- Mobile: `Flutter` (iOS/Android), `State Management` (Provider, Bloc, Riverpod)
+- Mobile: `Flutter` (IOS/Android), `State Management` (Provider, Bloc, Riverpod)
 - Cloud: `AWS`, `Firebase`, `Vercel`
 - Databases: `PostgreSQL`, `MySQL`, `MongoDB`
 - Practices: `Clean Architecture`, `Testing` (unit/integration/golden), `CI/CD` (GitHub Actions)
@@ -79,23 +79,23 @@ Results-driven Mobile Software Engineer and Backend Developer with 3+ years of e
 ## Projects
 
 ### Life Line — Hospital Management & Emergency Response
-- github: https://github.com/mo7amed4522/test_app
+- github: [github.com/mo7amed4522/test_app](https://github.com/mo7amed4522/test_app)
 - **Lifeline** is an advanced hospital management and emergency response app designed to enhance patient care, streamline hospital operations, and provide real-time medical support—appointments, patient records, emergency case management, and staff coordination .
 
 ### My Eye — Voice-Controlled Accessible Travel Booking
-- github: https://github.com/mo7amed4522/Eye
+- github: [github.com/mo7amed4522/Eye](https://github.com/mo7amed4522/Eye)
 - **MyEye** is a voice-controlled travel booking app for visually impaired users. With a fully accessible interface, users search, book, and manage trips hands-free .
 
 ### HOTELO ERP System — Hotel Management Backend
-- github: https://github.com/deepMindis/HOTELO_BACKEND
+- github: [github.com/deepMindis/HOTELO_BACKEND](https://github.com/deepMindis/HOTELO_BACKEND)
 - **HOTELO** is a hotel management ERP system that streamlines hotel operations and booking management. Built with TypeScript and MySQL for scalability and efficiency; designed for hotels, resorts, and hospitality businesses.
 
 ### Food GO — Home-Cooked Meals Marketplace (User App)
-- github: https://github.com/mo7amed4522/User-App
+- github: [github.com/mo7amed4522/User-App](https://github.com/mo7amed4522/User-App)
 - Connects users with passionate home chefs who prepare delicious, hygienic, and nutritious meals with fresh ingredients.
 
 ### My Dress ERP System — E-Commerce Dress Store Backend
-- github: https://github.com/mo7amed4522/dressing_backend
+- github: [github.com/mo7amed4522/dressing_backend](https://github.com/mo7amed4522/dressing_backend)
 - **My Dress** is an e-commerce dress store backend that connects users with passionate home chefs who prepare delicious, hygienic, and nutritious meals with fresh ingredients.
 - Technologies: **PHP**, **MySQL**, **JavaScript (AJAX)**, **HTML/CSS**, **RESTful APIs**.
 - Developed secure backend with MVC-like architecture, user authentication, role-based access control, and session management. Implemented product CRUD, inventory tracking, and order processing (status updates, invoicing, refunds).
