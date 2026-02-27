@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VitaSign Privacy Policy – HIPAA‑compliant telemedicine platform. Learn how we protect your health data with enterprise‑grade security.">
+    <title>Privacy Policy | VitaSign · Telemedicine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2E7D32;          /* VitaSign healthcare green */
+            --primary-light: #4CAF50;
+            --primary-dark: #1B5E20;
+            --secondary: #0288D1;         /* medical accent blue */
+            --accent: #00695C;
+            --text-dark: #1e293b;
+            --text-medium: #334155;
+            --text-light: #64748b;
+            --bg-offwhite: #f9fafc;
+            --bg-card: #ffffff;
+            --border-light: #e9edf2;
+            --shadow-sm: 0 4px 6px -2px rgba(0, 32, 20, 0.05), 0 2px 4px -2px rgba(0, 20, 10, 0.03);
+            --shadow-md: 0 12px 24px -8px rgba(0, 60, 30, 0.08);
+            --radius-md: 16px;
+            --radius-sm: 12px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg-offwhite);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* ===== header ===== */
+        .hero {
+            background: linear-gradient(145deg, var(--primary-dark) 0%, var(--primary) 55%, var(--accent) 100%);
+            padding: 4rem 1.5rem 6rem;
+            position: relative;
+            isolation: isolate;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M50 50h10v10H50zM20 20h10v10H20zM35 5h10v10H35zM5 35h10v10H5z'/%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 1.75rem;
+            flex-wrap: wrap;
+        }
+
+        .logo-img {
+            width: 64px;
+            height: 64px;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            padding: 8px;
+            box-shadow: 0 8px 20px rgba(0,30,0,0.3);
+        }
+
+        .logo-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+        }
+
+        .logo-text {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(to right, #fff, #f0fff0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero .subhead {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            font-weight: 400;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 0.6rem 1.5rem;
+            border-radius: 60px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        /* ===== main card ===== */
+        .main-wrapper {
+            max-width: 960px;
+            margin: -3.5rem auto 4rem;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 5;
+        }
+
+        .policy-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+            padding: 2.8rem;
+        }
+
+        /* toc */
+        .toc-panel {
+            background: #f2f7f2;
+            border-radius: var(--radius-sm);
+            padding: 1.8rem 2rem;
+            margin-bottom: 2.8rem;
+            border: 1px solid #d0e6d0;
+        }
+
+        .toc-panel h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--primary-dark);
+            margin-bottom: 1.2rem;
+        }
+
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 0.4rem 1rem;
+            list-style: none;
+        }
+
+        .toc-grid li a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-medium);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding: 0.4rem 0;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+        }
+
+        .toc-grid li a:hover {
+            color: var(--primary);
+            border-bottom-color: var(--primary-light);
+        }
+
+        .toc-grid li a::before {
+            content: "▹";
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        /* sections */
+        .policy-section {
+            margin-bottom: 2.8rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .section-icon {
+            background: linear-gradient(135deg, var(--primary) 10%, var(--secondary) 100%);
+            width: 44px;
+            height: 44px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            box-shadow: 0 6px 14px rgba(46,125,50,0.25);
+        }
+
+        .section-header h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .section-desc {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        /* data grid */
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.2rem;
+            margin: 1.8rem 0;
+        }
+
+        .data-tile {
+            background: #f8fbf8;
+            border: 1px solid var(--border-light);
+            border-radius: 16px;
+            padding: 1.4rem 1.2rem;
+            transition: 0.2s;
+        }
+
+        .data-tile:hover {
+            border-color: var(--primary-light);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .data-tile .tile-icon {
+            font-size: 2rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .data-tile h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .data-tile p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .feature-checklist {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .feature-checklist li {
+            display: flex;
+            gap: 0.8rem;
+            align-items: flex-start;
+            padding: 0.6rem 0;
+            border-bottom: 1px dashed var(--border-light);
+        }
+
+        .feature-checklist li:last-child {
+            border-bottom: none;
+        }
+
+        .feature-checklist li::before {
+            content: "✓";
+            background: var(--primary);
+            color: white;
+            font-weight: 700;
+            width: 22px;
+            height: 22px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+            margin-top: 0.2rem;
+        }
+
+        .callout {
+            border-left: 6px solid var(--primary);
+            background: #eef6ee;
+            padding: 1.5rem 2rem;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 2rem 0;
+        }
+
+        .callout.warning {
+            border-left-color: #e67e22;
+            background: #fff3e0;
+        }
+
+        .callout-title {
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        /* contact block */
+        .contact-block {
+            background: #f2faf2;
+            border-radius: 24px;
+            padding: 2.2rem;
+            text-align: center;
+            margin: 2.5rem 0 1rem;
+        }
+
+        .contact-email-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: white;
+            color: var(--primary-dark);
+            font-weight: 600;
+            padding: 0.9rem 2.2rem;
+            border-radius: 60px;
+            text-decoration: none;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(46,125,50,0.2);
+            transition: 0.2s;
+            font-size: 1.1rem;
+        }
+
+        .contact-email-btn:hover {
+            background: var(--primary);
+            color: white;
+            border-color: transparent;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .footer-note {
+            text-align: center;
+            padding: 2rem 1rem 1.5rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-light);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .footer-note a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.9rem; }
+            .hero .subhead { font-size: 1rem; }
+            .policy-card { padding: 1.5rem; }
+            .section-header h2 { font-size: 1.5rem; }
+            .toc-grid { grid-template-columns: 1fr; }
+            .logo-text { font-size: 1.7rem; }
+        }
+
+        /* print */
+        @media print {
+            .hero { background: white; color: black; padding: 2rem; }
+            .hero * { color: black !important; -webkit-text-fill-color: black; }
+            .badge { border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="logo-container">
+                <span class="logo-img">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%232E7D32'/%3E%3Cpath d='M34 48 L46 60 L68 35' stroke='white' stroke-width='8' fill='none' stroke-linecap='round' /%3E%3C/svg%3E" alt="VitaSign symbol">
+                </span>
+                <span class="logo-text">VitaSign</span>
+            </div>
+            <h1>Privacy Policy · HIPAA compliance</h1>
+            <p class="subhead">Your health data, protected with enterprise‑grade security. We respect your privacy as much as we value your care.</p>
+            <div class="badge">
+                <span>🔒</span>
+                <span>Last updated: March 15, 2025 · effective for all VitaSign services</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-wrapper">
+        <div class="policy-card">
+
+            <!-- quick nav -->
+            <div class="toc-panel">
+                <h3>📋 Policy contents</h3>
+                <ul class="toc-grid">
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#data-collection">Health data we collect</a></li>
+                    <li><a href="#how-we-use">Purpose of processing</a></li>
+                    <li><a href="#data-storage">Storage & retention</a></li>
+                    <li><a href="#data-sharing">Sharing & disclosure</a></li>
+                    <li><a href="#your-rights">Your rights (GDPR/HIPAA)</a></li>
+                    <li><a href="#security">Security measures</a></li>
+                    <li><a href="#children">Children’s privacy</a></li>
+                    <li><a href="#changes">Changes to policy</a></li>
+                    <li><a href="#contact">Contact & DPO</a></li>
+                </ul>
+            </div>
+
+            <!-- 1 intro -->
+            <section id="introduction" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">🏥</span>
+                    <h2>Introduction</h2>
+                </div>
+                <p class="section-desc">VitaSign (“we”, “us”, “our”) operates a secure telemedicine platform connecting healthcare providers with patients. This Privacy Policy explains our practices regarding the collection, use, and protection of your information when you use our mobile app, web services, or APIs.</p>
+                <p>We are committed to full transparency: <strong>we never sell your health information</strong>. All data is processed under strict HIPAA and GDPR safeguards. By using VitaSign, you acknowledge the practices described in this policy.</p>
+                <div class="callout">
+                    <div class="callout-title">🔐 Our binding commitment</div>
+                    <p>All protected health information (PHI) is encrypted end‑to‑end. Access is logged and audited. We undergo annual third‑party security audits.</p>
+                </div>
+            </section>
+
+            <!-- 2 data collection -->
+            <section id="data-collection" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">📋</span>
+                    <h2>Health data we collect</h2>
+                </div>
+                <p class="section-desc">To provide telemedicine and practice management, we collect the following categories of information (with your explicit consent where required):</p>
+                <div class="data-grid">
+                    <div class="data-tile"><span class="tile-icon">🆔</span><h4>Identifiers</h4><p>Name, date of birth, medical ID, government ID (for verification)</p></div>
+                    <div class="data-tile"><span class="tile-icon">📞</span><h4>Contact details</h4><p>Phone, email, emergency contact</p></div>
+                    <div class="data-tile"><span class="tile-icon">🩺</span><h4>Medical records</h4><p>Diagnoses, medications, allergies, lab results (EHR integration)</p></div>
+                    <div class="data-tile"><span class="tile-icon">📹</span><h4>Consultation data</h4><p>Video/audio recordings (only if consented), chat transcripts</p></div>
+                    <div class="data-tile"><span class="tile-icon">💰</span><h4>Payment info</h4><p>Processed via Stripe; we do not store full card numbers</p></div>
+                    <div class="data-tile"><span class="tile-icon">📱</span><h4>Device & usage</h4><p>IP, app version, crash logs – to improve performance</p></div>
+                </div>
+                <div class="callout warning">
+                    <div class="callout-title">⚠️ Biometric authentication</div>
+                    <p>If you enable FaceID / TouchID, biometric data never leaves your device. We only receive a success/failure confirmation.</p>
+                </div>
+            </section>
+
+            <!-- 3 how we use -->
+            <section id="how-we-use" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">⚙️</span>
+                    <h2>How we use your information</h2>
+                </div>
+                <ul class="feature-checklist">
+                    <li><strong>Telemedicine & treatment:</strong> Facilitate video consultations, share records with your provider, issue e‑prescriptions.</li>
+                    <li><strong>Care coordination:</strong> Notifications for appointments, lab results, follow‑ups (with your permission).</li>
+                    <li><strong>Billing & payments:</strong> Process insurance claims and payments via secure gateway.</li>
+                    <li><strong>Platform security & integrity:</strong> Detect fraud, enforce terms, maintain audit logs.</li>
+                    <li><strong>Research (de‑identified):</strong> With separate consent, we may use aggregated data to improve medical outcomes.</li>
+                    <li><strong>Compliance:</strong> Fulfill legal obligations (e.g., mandatory reporting).</li>
+                </ul>
+            </section>
+
+            <!-- 4 storage -->
+            <section id="data-storage" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">🗄️</span>
+                    <h2>Storage & retention</h2>
+                </div>
+                <p>All data resides in ISO 27001 certified data centers within the <strong>European Union</strong> (for EU users) or <strong>United States</strong> (for North American users). Retention periods follow medical record laws: generally 7 years after last encounter, after which secure deletion occurs. You may request earlier deletion (subject to legal holds).</p>
+                <div class="callout">
+                    <div class="callout-title">🔐 Encryption everywhere</div>
+                    <p>AES‑256 for data at rest · TLS 1.3 for data in transit · Regular key rotation.</p>
+                </div>
+            </section>
+
+            <!-- 5 sharing -->
+            <section id="data-sharing" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">🤝</span>
+                    <h2>Data sharing & disclosure</h2>
+                </div>
+                <p>We share information only where essential for your care or legally required:</p>
+                <ul class="feature-checklist">
+                    <li><strong>Your provider / clinic:</strong> Records are shared with your physician and their team through the platform.</li>
+                    <li><strong>Sub‑processors:</strong> Secure hosting (AWS/Azure), email notifications, crash analytics (all sign BAAs).</li>
+                    <li><strong>Legal & safety:</strong> To comply with subpoenas, prevent harm, or public health requirements.</li>
+                    <li><strong>Business transfer:</strong> In case of merger/acquisition, data would remain under similar privacy commitments.</li>
+                </ul>
+                <p>We never sell or rent your health data for advertising or marketing.</p>
+            </section>
+
+            <!-- 6 your rights -->
+            <section id="your-rights" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">⚖️</span>
+                    <h2>Your privacy rights</h2>
+                </div>
+                <p>Depending on jurisdiction, you may have the following rights regarding your data:</p>
+                <ul class="feature-checklist">
+                    <li><strong>Access & portability:</strong> Obtain a copy of your records in machine‑readable format.</li>
+                    <li><strong>Rectification:</strong> Request correction of inaccurate information.</li>
+                    <li><strong>Deletion (“right to be forgotten”):</strong> Ask us to erase your data, subject to legal retention.</li>
+                    <li><strong>Restrict / object:</strong> Limit processing for certain purposes (e.g., direct marketing).</li>
+                    <li><strong>Withdraw consent:</strong> At any time, without affecting prior processing.</li>
+                </ul>
+                <p>To exercise your rights, contact us at the email below. We respond within 30 days.</p>
+            </section>
+
+            <!-- 7 security -->
+            <section id="security" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">🛡️</span>
+                    <h2>Security measures</h2>
+                </div>
+                <ul class="feature-checklist">
+                    <li>End‑to‑end encryption for all video calls (WebRTC with DTLS/SRTP).</li>
+                    <li>Multi‑factor authentication available for all accounts.</li>
+                    <li>Regular penetration tests and SOC2 Type II audits.</li>
+                    <li>Mock location prevention and session timeouts in mobile apps.</li>
+                    <li>Shorebird OTA updates delivered with cryptographic signing.</li>
+                </ul>
+            </section>
+
+            <!-- 8 children -->
+            <section id="children" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">👶</span>
+                    <h2>Children’s privacy</h2>
+                </div>
+                <p>VitaSign is intended for use by licensed healthcare professionals and adult patients (18+). Where pediatric care is provided, a parent or legal guardian must consent and manage the account. We do not knowingly collect data from unaccompanied minors. If you believe we have inadvertently done so, please notify us immediately.</p>
+            </section>
+
+            <!-- 9 changes -->
+            <section id="changes" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">📄</span>
+                    <h2>Changes to this policy</h2>
+                </div>
+                <p>We may update this Privacy Policy to reflect legal, technical, or operational changes. Material updates will be announced via in‑app notice or email at least 30 days in advance. The “Last updated” date at the top always reflects the effective date.</p>
+            </section>
+
+            <!-- 10 contact -->
+            <section id="contact" class="policy-section">
+                <div class="section-header">
+                    <span class="section-icon">📬</span>
+                    <h2>Contact us / Data Protection Officer</h2>
+                </div>
+                <p>For privacy inquiries, data subject requests, or concerns about your information:</p>
+            </section>
+
+            <div class="contact-block">
+                <h3 style="font-size: 1.5rem; color: var(--primary-dark);">VitaSign Data Protection Team</h3>
+                <p style="margin: 0.5rem 0 1.5rem;">Email us — we usually reply within 24 hours.</p>
+                <a href="mailto:privacy@vitasign.com" class="contact-email-btn">
+                    <span>✉️</span> privacy@vitasign.com
+                </a>
+                <p style="margin-top: 1.5rem; font-size: 0.9rem;">📍 123 Health Street · Medical City · contact@vitasign.com · +971 54 279 7621</p>
+            </div>
+
+            <!-- optional footnote about Odoo test endpoint (from readme) -->
+            <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1rem;">API base endpoint: <code style="background:#f0f4f0; padding:2px 6px; border-radius:8px;">https://vitasign-vitasign-test-26789696.dev.odoo.com/vitasign/api</code> · For enterprise compliance documentation, contact us.</p>
+        </div>
+    </div>
+
+    <footer class="footer-note">
+        <p>© 2025 VitaSign · HIPAA compliant & ISO 27001 certified telemedicine infrastructure.</p>
+        <p>This privacy policy is effective for all VitaSign applications (iOS, Android, web) and professional services.</p>
+        <p>📱 <a href="#">App Store</a> · <a href="#">Google Play</a> · <a href="#">Documentation</a></p>
+    </footer>
+</body>
+</html>
