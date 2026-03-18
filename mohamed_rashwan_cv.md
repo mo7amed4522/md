@@ -6,10 +6,10 @@
 
 ## CONTACT
 
-- **Phone:** +971 58 187 4857
-- **WhatsApp:** +20 1000889938
+- **Phone:** +971 50 421 3995
+- **WhatsApp:** +971 504213995
 - **Email:** mo.rashwan24@gmail.com
-- **Location:** Al Rigga, Dubai, UAE (Visit Visa - Available for immediate employment)
+- **Location:** Al Rigga, Dubai, UAE 
 
 ---
 
@@ -34,7 +34,7 @@ Results-driven retail professional with over 10 years of experience in sales, st
 ---
 
 ### Sales Manager
-**Universal Porcelain for Decoration Glass** | Dubai | Oct 2023 – 2024
+**Universal Porcelain for Decoration Glass** | Dubai | Oct 2023 – 2025
 
 - Led sales operations and developed strategies to increase revenue.
 - Managed client relationships and negotiated contracts with key accounts.
@@ -66,7 +66,7 @@ Results-driven retail professional with over 10 years of experience in sales, st
 ---
 
 ### Store Manager
-**Closes Club (Jopa Fashion Wear)** | Egypt | Dec 2020 – Aug 2021
+**Closes Club (Palton Fashion Wear)** | Egypt | Dec 2020 – Aug 2021
 
 - Managed daily store operations and ensured excellent customer service.
 - Supervised staff scheduling, training, and performance evaluation.
