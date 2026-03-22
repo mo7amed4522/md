@@ -1,0 +1,41 @@
+Yassen Hamdy Abo Elmagd
+System Admin
+yassenhamdy395@gmail.com 01062244518 Egypt - Cairo
+https://www.linkedin.com/in/yassen-hamdy-4b98953a7 Completion
+Profile
+Junior System Administrator with a strong foundation in networking and system administration. CCNA-
+certified with solid understanding of routing, switching, IP addressing, and network troubleshooting.
+Experienced in Linux administration (CentOS/ Red Hat), user management, and virtualization using VMware.
+Passionate about building secure and efficient IT infrastructures.
+Education
+Bachelor of Computer and Information Science Luxor University, Egypt 2020 – 2023
+Information Technology Institute (ITI) System Administration Track
+Professional Experience
+Junior System & Network Administrator
+ITI – Information Technology Institute
+System Administration Trainee
+2026 – Present
+- Installed, configured, and maintained Linux and Windows Server systems.
+- Managed users, permissions, and system security policies.
+- Performed system monitoring and troubleshooting to ensure high performance and availability.
+- Networking (CCNA Level): Gained hands-on experience in IP addressing, subnetting, VLANs, and network
+fundamentals.
+- Routing & Switching: Configured basic routing, switching, and network connectivity.
+- Worked with virtualization technologies such as VMware for creating and managing virtual machines.
+- Maintained system performance and applied security best practices to ensure system reliability.
+- Collaborated effectively within a team environment to complete tasks and projects.
+- Demonstrated strong problem-solving skills and ability to learn new technologies quickly.
+- Managed tasks efficiently and worked under pressure to meet deadlines.
+Skills
+• Networking (CCNA)
+• Routing & Switching
+• Linux Administration
+• Windows Server
+• VMware
+• System Administration
+• Python Basic
+• Docker (Basic)
+• Monitoring Basics
+Languages
+Arabic
+English
